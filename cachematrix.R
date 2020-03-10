@@ -19,11 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
            getInvMat = getInvMat)
 }
 
-xx <- makeCacheMatrix(A)
-xx
-yy <- cacheSolve(xx)
-yy
-debug(cacheSolve)
+
 
 
 ## Write a short comment describing this function
